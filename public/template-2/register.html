@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="register.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>Daftar Pelatihan | UPTD BLK Karawang</title>
+</head>
+
+<body class="register">
+    <!-- <h1>PENDAFTARAN ONLINE PELATIHAN</h1> -->
+    <div class="container">
+        <form action="#" method="post">
+            <!-- Data Pribadi -->
+            <div class="input-field">
+                <label for="nik">NIK</label>
+                <input type="text" name="nik" id="nik" maxlength="16"
+                    oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"
+                    placeholder="NIK">
+            </div>
+            <div class="input-field">
+                <label for="fullname">Nama Lengkap</label>
+                <input type="text" name="fullname" id="fullname" placeholder="Nama Lengkap">
+            </div>
+            <div class="inline-input-field">
+                <div class="input-field">
+                    <label for="birthplace">Tempat Lahir</label>
+                    <input type="text" name="birthplace" id="birthplace" placeholder="Tempat Lahir">
+                </div>
+                <div class="input-field">
+                    <label for="birthdate">Tanggal Lahir</label>
+                    <input type="date" name="birthdate" id="birthdate">
+                </div>
+            </div>
+            <div class="inline-input-field">
+                <div class="input-field">
+                    <label for="">Jenis Kelamin</label>
+                    <div class="inline-radio">
+                        <input type="radio" name="gender" id="male" value="Pria">
+                        <label for="male">Pria</label>
+                        <input type="radio" name="gender" id="female" value="Wanita">
+                        <label for="female">Wanita</label>
+                    </div>
+                </div>
+                <div class="input-field">
+                    <label for="">Status Pernikahan</label>
+                    <div class="inline-radio">
+                        <input type="radio" name="married" id="married" value="Menikah">
+                        <label for="married">Menikah</label>
+                        <input type="radio" name="married" id="single" value="Lajang">
+                        <label for="single">Lajang</label>
+                    </div>
+                </div>
+            </div>
+            <div class="inline-input-field">
+                <div class="input-field">
+                    <label for="parent">Tinggi Badan</label>
+                    <div class="inline-field">
+                        <input type="text" name="height" id="height" maxlength="3" size="6"
+                            placeholder="Tinggi Badan"><span class="unit">
+                            cm</span>
+                    </div>
+                </div>
+                <div class="input-field">
+                    <label for="parent">Berat Badan</label>
+                    <div class="inline-field">
+                        <input type="text" name="weight" id="weight" maxlength="3" size="6"
+                            placeholder="Berat Badan"><span class="unit">
+                            kg</span>
+                    </div>
+                </div>
+            </div>
+            <div class="input-field">
+                <label for="parent">Nama Orang Tua / Wali</label>
+                <input type="text" name="parent" id="parent" placeholder="Orang Tua / Wali">
+            </div>
+            <!-- end of Data Pribadi -->
+
+            <!-- Kontak Pribadi -->
+            <!-- <div class="input-field">
+                <label for="address">Alamat</label>
+                <textarea name="address" id="address" cols="30" rows="5" placeholder="Nama Jalan, No, RT/RW"></textarea>
+            </div>
+            <div class="inline-input-field">
+                <div class="input-field">
+                    <label for="province">Provinsi</label>
+                    <input type="text" name="province" id="province" placeholder="Provinsi">
+                </div>
+                <div class="input-field">
+                    <label for="birthdate">Kabupaten/Kota</label>
+                    <input type="text" name="city" id="city" placeholder="Kabupaten/Kota">
+                </div>
+            </div>
+            <div class="inline-input-field">
+                <div class="input-field">
+                    <label for="province">Kecamatan</label>
+                    <input type="text" name="district" id="district" placeholder="Kecamatan">
+                </div>
+                <div class="input-field">
+                    <label for="birthdate">Desa/Kelurahan</label>
+                    <input type="text" name="village" id="village" placeholder="Desa/Kelurahan">
+                </div>
+            </div>
+            <div class="input-field">
+                <label for="phone">No. Telepon/HP</label>
+                <input type="tel" name="phone" id="phone" placeholder="No. Telepon/HP">
+            </div>
+            <div class="input-field">
+                <label for="phone">No. Telepon/HP Wali</label>
+                <input type="tel" name="phone2" id="phone2" placeholder="No. Telepon/HP Wali">
+            </div>
+            <div class="input-field">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email" placeholder="Email">
+            </div> -->
+            <!-- end of Kontak Pribadi -->
+
+            <!-- 
+                
+            
+
+            
+            <div>
+                <label for="">Pendidikan Terakhir</label>
+            </div>
+            
+             -->
+        </form>
+    </div>
+
+</body>
+
+</html>
